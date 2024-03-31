@@ -72,6 +72,10 @@ Highly motivated and detail-oriented student with a fervent passion for programm
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+</div>
+
+### Database
+<div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
@@ -88,7 +92,8 @@ Highly motivated and detail-oriented student with a fervent passion for programm
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="Visual Studio Code" alt="Visual Studio Code" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" title="Jupyter Notebook" alt="Jupyter Notebook" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" title="Google Colab" alt="Google Colab" width="40" height="40"/>&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" title="Google Colab" alt="Google Colab" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" title="IntelliJ IDEA" alt="IntelliJ IDEA" width="40" height="40"/>
 </div>
 
 ### Operating Systems
@@ -98,9 +103,11 @@ Highly motivated and detail-oriented student with a fervent passion for programm
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" title="macOS" alt="macOS" width="40" height="40"/>&nbsp;
 </div>
 
+
+
 ## Projects
 
-### [WaterB&B](https://github.com/deondmello16/) | September 2023
+### [WaterB&B](https://github.com/lekenzi/WaterB-B) | September 2023
 
 - WaterB&B integrates Node.js, MongoDB, and Bootstrap to create an immersive and secure platform for property hosting and reviews.
 - The project's focus is on delivering a seamless user experience, with particular attention to secure authentication.
@@ -108,15 +115,15 @@ Highly motivated and detail-oriented student with a fervent passion for programm
 
 **Keywords**: Full-Stack Web Development, Node.js, MongoDB, Bootstrap, Secure Authentication.
 
-### [PubMed200kClassifier](https://github.com/deondmello16/) | January 2024
+### [PubMed200kClassifier](https://github.com/lekenzi/PubMed200kSolver) | January 2024
 
 - Developed the PubMed200kSolverNotebook intending to construct an NLP model for medical paper comprehension, focusing on a classification problem.
 - Took inspiration from the paper "PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts" to utilize its dataset for training the NLP model.
 - Successfully implemented the classification model, achieving an impressive accuracy rate of 87% in NLP tasks related to medical abstracts.
 
-**Keywords**: NLP, scikit-learn, TensorFlow, Sequential Sentence Classification, Neural Networks, Artificial Intelligence.
+**Keywords**: NLP, sci-kit-learn, TensorFlow, Sequential Sentence Classification, Neural Networks, Artificial Intelligence.
 
-### [Food101](https://github.com/deondmello16/) | September 2023
+### [Food101](https://github.com/lekenzi/efficient_net_food101) | September 2023
 
 - Engineered and implemented a Food101 image classification model, showcasing proficiency in machine learning and deep learning techniques.
 - Optimized model performance through meticulous fine-tuning, resulting in improved accuracy and effectiveness in food category predictions.
