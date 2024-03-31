@@ -11,29 +11,32 @@ Highly motivated and detail-oriented student with a fervent passion for programm
 
 ## Education
 
-- **REVA UNIVERSITY**
- - B.Tech Computer Engineering (AI&ML)
- - Expected July 2024 | CGPA: 8.0
+### REVA UNIVERSITY
+ - B.Tech in Computer Engineering (AI & ML)
+ - Expected Graduation: July 2024
+ - CGPA: 8.0
 
-- **IIT MADRAS**
+### IIT MADRAS
  - BS in Programming and Data Science
- - Expected Dec. 2026 | CGPA: 7.1
+ - Expected Graduation: December 2026
+ - CGPA: 7.1
 
-- **ST. CLARET PU COLLEGE**
- - Physics, Chemistry, Maths, Computer Science
- - June 2020 | Percentage: 90%
+### ST. CLARET PU COLLEGE
+ - Subjects: Physics, Chemistry, Mathematics, Computer Science
+ - Graduation: June 2020
+ - Percentage: 90%
 
 ## Certifications
 
-- TensorFlow Developer Certificate
-- Foundational Level Certificate in Programming and Data Science (IIT Madras)
-- The Web Developer Bootcamp (MERN)
-- HTML, CSS & JavaScript
-- Python for Data Science, AI & Development
-- Programming for Everybody (Python)
-- Design Thinking for Innovation
+- [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate)
+- [Foundational Level Certificate in Programming and Data Science (IIT Madras)](https://www.onlinedegree.iitm.ac.in/)
+- [The Web Developer Bootcamp (MERN)](https://www.udemy.com/course/the-web-developer-bootcamp/)
+- [HTML, CSS & JavaScript](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
+- [Python for Data Science, AI & Development](https://www.coursera.org/specializations/data-science-python)
+- [Programming for Everybody (Python)](https://www.coursera.org/specializations/python)
+- [Design Thinking for Innovation](https://www.coursera.org/learn/uva-darden-design-thinking-innovation)
 
-## Skills
+<!--  ## Skills
 
 ### Programming
 - Python
@@ -56,6 +59,44 @@ Highly motivated and detail-oriented student with a fervent passion for programm
 - Windows
 - Linux
 - Mac OS
+-->
+
+## Skills
+
+### Programming
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
+</div>
+
+### Machine Learning
+<div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" title="scikit-learn" alt="scikit-learn" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" alt="TensorFlow" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" title="PyTorch" alt="PyTorch" width="40" height="40"/>&nbsp;
+</div>
+
+### Tools/Applications
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="Visual Studio Code" alt="Visual Studio Code" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" title="Jupyter Notebook" alt="Jupyter Notebook" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" title="Google Colab" alt="Google Colab" width="40" height="40"/>&nbsp;
+</div>
+
+### Operating Systems
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" title="Windows" alt="Windows" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" title="macOS" alt="macOS" width="40" height="40"/>&nbsp;
+</div>
 
 ## Projects
 
