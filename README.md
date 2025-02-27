@@ -24,7 +24,7 @@ Passionate software engineer specializing in AI, Machine Learning, and System Re
 
 ## Experience
 
-### **Computer Vision Trainee** | Tardid Technologies | **June 2024 – Present**
+### **AI Engineer** | Tardid Technologies | **June 2024 – Present**
 - Designed and implemented algorithms to improve naval vessels' detection range and bearing accuracy.
 - Integrated LiDAR and IMU with vision systems to enhance environmental awareness for maritime applications.
 - Developed backend code for machine learning model integration, optimizing real-time decision-making.
