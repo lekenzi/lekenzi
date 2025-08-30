@@ -60,7 +60,6 @@ Passionate software engineer specializing in AI, Machine Learning, and System Re
 ## Contact
 
 📧 **Email:** [deondmello@gmail.com](mailto:deondmello@gmail.com)  
-🌐 **Portfolio:** [deondmello.tech](https://www.deondmello.tech)  
+🌐 **Portfolio:** [deondmello.tech](https://deondmello.netlify.app)  
 💼 **LinkedIn:** [linkedin.com/in/deon-dmello](https://www.linkedin.com/in/deon-dmello)  
 👨‍💻 **GitHub:** [github.com/lekenzi](https://github.com/lekenzi)  
-📞 **Phone:** +91 9108072271  
