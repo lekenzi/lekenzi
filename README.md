@@ -9,47 +9,6 @@
 
 Passionate software engineer specializing in AI, Machine Learning, and System Reliability. Experienced in developing and optimizing algorithms, integrating sensors (LiDAR, IMU) with vision systems, and enhancing system performance in real-time applications. Skilled in full-stack web development, deep learning, and DevOps practices.
 
-## Education
-
-### Reva University, Bengaluru, KA
-- **B.Tech in Computer Engineering (AI & ML)**
-- **CGPA:** 8.1  
-- **Duration:** Dec 2020 - July 2024
-
-### Indian Institute of Technology Madras, Chennai, TN
-- **BS in Programming and Data Science**
-- **CGPA:** 7.0 (Project CGPA: 9.0)  
-- **Completed Diploma in Data Science**
-- **Duration:** Sept 2021 – Present
-
-## Experience
-
-### **AI Engineer** | Tardid Technologies | **June 2024 – Present**
-- Designed and implemented algorithms to improve naval vessels' detection range and bearing accuracy.
-- Integrated LiDAR and IMU with vision systems to enhance environmental awareness for maritime applications.
-- Developed backend code for machine learning model integration, optimizing real-time decision-making.
-- **Keywords:** Algorithm Development, Sensor Fusion, LiDAR, IMU, Vision Systems, ML, Backend Development.
-
-### **SRE / Platform Engineer Intern** | Practo Technologies | **March 2024 – June 2024**
-- Managed and resolved support tickets using JIRA, troubleshooting systems via SSH for reliability.
-- Implemented bug patches, enhanced platform stability, and worked on in-house SMS/email notification tools.
-- Gained hands-on experience with **PagerDuty** for incident management and **Docker** for containerization.
-- **Keywords:** SRE, JIRA, SSH, Troubleshooting, PagerDuty, Docker, Platform Stability.
-
-## Projects
-
-### [**WaterB&B**](https://github.com/lekenzi/WaterB-B) | Full-Stack Web Development | Sept 2023
-- Developed a **secure** property hosting platform using **Node.js, MongoDB, and Bootstrap**.
-- Implemented user authentication to enhance security and user experience.
-
-### [**ImageColorization**](https://github.com/lekenzi/image-colorization) | Deep Learning | April 2024
-- Built and trained a **CNN model** to automatically colorize black and white images.
-- Packaged the project into a standalone **Python library** for community use.
-
-### [**Food101**](https://github.com/lekenzi/efficient_net_food101) | Image Classification | Sept 2023
-- Engineered a **CNN model** with **Transfer Learning** for **food category predictions**.
-- Optimized performance with **fine-tuning** for better accuracy.
-
 ## Skills
 
 ### **Programming Languages**
@@ -97,13 +56,6 @@ Passionate software engineer specializing in AI, Machine Learning, and System Re
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="40" height="40"/>&nbsp;
 </div>
 
-## Certifications
-
-- [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate)
-- [Foundational Level Certificate in Programming and Data Science (IIT Madras)](https://www.onlinedegree.iitm.ac.in/)
-- [The Web Developer Bootcamp (MERN)](https://www.udemy.com/course/the-web-developer-bootcamp/)
-- [Python for Data Science, AI & Development](https://www.coursera.org/specializations/data-science-python)
-- [Design Thinking for Innovation](https://www.coursera.org/learn/uva-darden-design-thinking-innovation)
 
 ## Contact
 
