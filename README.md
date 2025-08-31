@@ -7,7 +7,7 @@
 
 ## About Me
 
-Passionate software engineer specializing in AI, Machine Learning, and System Reliability. Experienced in developing and optimizing algorithms, integrating sensors (LiDAR, IMU) with vision systems, and enhancing system performance in real-time applications. Skilled in full-stack web development, deep learning, and DevOps practices.
+AI Engineer specializing in sensor fusion, real-time action recognition, and scalable ML systems. Experienced in deploying deep learning models with PyTorch and ROS2, building FastAPI services, and managing collaborative workflows. Passionate about creating reliable, high-performance AI solutions that bridge research and production.
 
 ## Skills
 
@@ -67,7 +67,7 @@ Passionate software engineer specializing in AI, Machine Learning, and System Re
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" height="40" alt="Vue.js"/>&nbsp;
   <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="100" height="40" alt="FastAPI"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40" alt="Flask"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40" alt="Flask" inv/>&nbsp;
   <img src="https://docs.celeryq.dev/en/stable/_static/celery_512.png" width="50" height="50" alt="Celery"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="50" height="50" alt="Redis"/>&nbsp;
 </div>
