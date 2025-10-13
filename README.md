@@ -9,6 +9,8 @@
 
 AI Engineer specializing in sensor fusion, real-time action recognition, and scalable ML systems. Experienced in deploying deep learning models with PyTorch and ROS2, building FastAPI services, and managing collaborative workflows. Passionate about creating reliable, high-performance AI solutions that bridge research and production.
 
+![](https://komarev.com/ghpvc/?username=lekenzi)
+
 ## Skills
 
 ### **Programming Languages**
