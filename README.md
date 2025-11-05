@@ -74,6 +74,17 @@ AI Engineer specializing in sensor fusion, real-time action recognition, and sca
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="50" height="50" alt="Redis"/>&nbsp;
 </div>
 
+### **Generative AI (GenAI) Tools**
+<div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/LangChain_Logo.svg/512px-LangChain_Logo.svg.png?20250612121153" width="250" height="40" alt="LangChain"/>  
+  <img src="./svg/langgraph-text.svg" width="250" height="40" alt="LangGraph"/>
+  <img src="./svg/llamaindex-text.svg" width="40" height="40" alt="LlamaIndex"/>
+  <img src="./svg/crewai-brand-color.svg" width="250" height="40" alt="CrewAI"/>
+  <img src="https://avatars.githubusercontent.com/u/151674099?s=200&v=4" width="40" height="40" alt="Ollama"/>
+  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40" height="40" alt="Hugging Face"/>
+  <img src="./svg/mcp.svg" width="40" height="40" alt="MCP"/>
+</div>
+
 ## Contact
 
 📧 **Email:** [deondmello@gmail.com](mailto:deondmello@gmail.com)  
