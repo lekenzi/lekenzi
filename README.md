@@ -5,6 +5,10 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://deondmello.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lekenzi)
 
+## Website
+
+Professional profile site: [lekenzi.github.io/lekenzi](https://lekenzi.github.io/lekenzi)
+
 ## About Me
 
 AI Engineer specializing in sensor fusion, real-time action recognition, and scalable ML systems. Experienced in deploying deep learning models with PyTorch and ROS2, building FastAPI services, and managing collaborative workflows. Passionate about creating reliable, high-performance AI solutions that bridge research and production.
