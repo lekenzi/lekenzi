@@ -1,270 +1,216 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Deon Levon Dmello - AI Engineer specializing in LLMs, RAG systems, backend APIs, and production-ready AI workflows."
-    />
-    <title>Deon Levon Dmello | AI Engineer</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <p class="eyebrow">AI Engineer</p>
-        <h1>Deon Levon Dmello</h1>
-        <p class="subtitle">
-          Building reliable AI agents, RAG workflows, and backend systems that
-          turn complex enterprise processes into fast, production-ready
-          solutions.
-        </p>
-        <div class="top-links">
-          <a href="mailto:deondmello@gmail.com">Email</a>
-          <a
-            href="https://www.linkedin.com/in/deon-dmello"
-            target="_blank"
-            rel="noopener noreferrer"
-            >LinkedIn</a
-          >
-          <a
-            href="https://github.com/lekenzi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >GitHub</a
-          >
-          <a
-            href="https://deondmello.me"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Portfolio</a
-          >
-          <a
-            href="DonDmelloCV_EU_.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Resume (PDF)</a
-          >
-        </div>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deon Levon Dmello | AI Engineer</title>
+<meta name="description" content="Deon Levon Dmello, AI Engineer at Bayer. Building AI agents, RAG workflows and backend systems for production.">
+<meta property="og:title" content="Deon Levon Dmello | AI Engineer">
+<meta property="og:description" content="AI agents, RAG workflows and backend systems that turn slow enterprise processes into fast, production-ready ones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0e1014; --surface:#151821; --ink:#e7e9ee; --muted:#8b90a0; --line:#232734;
+    --accent:#8fa8ff; --glow:rgba(143,168,255,.10);
+    --sans:Geist,system-ui,sans-serif; --mono:"Geist Mono",ui-monospace,monospace;
+  }
+  @media (prefers-color-scheme:light){
+    :root{ --bg:#f6f7fb; --surface:#ffffff; --ink:#161922; --muted:#5d6273; --line:#e3e5ee;
+           --accent:#4257d6; --glow:rgba(66,87,214,.08); }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font:15.5px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:520px;pointer-events:none;
+    background:radial-gradient(600px 320px at 20% -10%,var(--glow),transparent 70%)}
+  main{position:relative;max-width:760px;margin:0 auto;padding:80px 20px 56px}
+  a{color:inherit;text-decoration:none}
+  .mono{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--muted)}
+
+  /* hero */
+  .top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;text-transform:uppercase}
+  .top .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:8px;
+    box-shadow:0 0 0 0 var(--accent);animation:pulse 2.4s infinite}
+  @keyframes pulse{70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+  h1{font-weight:600;font-size:clamp(38px,7vw,56px);line-height:1.05;letter-spacing:-.03em;margin:26px 0 16px}
+  .tagline{font-size:18px;color:var(--muted);max-width:58ch}
+  .tagline b{color:var(--ink);font-weight:500}
+  .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+  .btn{font:13px var(--mono);padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);
+    transition:border-color .2s,color .2s,transform .2s}
+  .btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+  .btn.primary:hover{color:var(--bg);opacity:.9}
+
+  /* sections */
+  section{margin-top:84px}
+  h2{font:400 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:22px;
+    display:flex;align-items:center;gap:12px}
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+  .about{font-size:17px;max-width:62ch}
+
+  /* experience */
+  .job{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .job:first-of-type{padding-top:0}
+  .job .when{line-height:1.8}
+  .job h3{font-size:16.5px;font-weight:600;letter-spacing:-.01em}
+  .job h3 span{color:var(--muted);font-weight:400}
+  ul{list-style:none;margin-top:10px}
+  li{position:relative;padding-left:18px;color:var(--muted);margin-top:6px}
+  li::before{content:"";position:absolute;left:2px;top:.72em;width:6px;height:1px;background:var(--accent)}
+  li b{color:var(--ink);font-weight:500}
+
+  /* projects */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .card{display:flex;flex-direction:column;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;
+    transition:border-color .25s,transform .25s}
+  .card:hover{border-color:var(--accent);transform:translateY(-3px)}
+  .card h3{font-size:16px;font-weight:600;display:flex;justify-content:space-between}
+  .card h3 i{font-style:normal;color:var(--muted);transition:color .25s,transform .25s}
+  .card:hover h3 i{color:var(--accent);transform:translate(2px,-2px)}
+  .card p{color:var(--muted);font-size:14.5px;margin:8px 0 16px;flex:1}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tags span{font:11px/1 var(--mono);padding:5px 8px;border-radius:99px;background:var(--glow);color:var(--accent)}
+
+  /* skills + education */
+  .skills{display:grid;grid-template-columns:150px 1fr;gap:12px 20px}
+  .skills dd{color:var(--muted)}
+  .edu{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .edu:first-of-type{padding-top:0}
+  .edu h3{font-size:16px;font-weight:600}
+  .edu p{color:var(--muted)}
+
+  footer{margin-top:96px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  footer a:hover{color:var(--accent)}
+
+  .reveal{opacity:0;transform:translateY(10px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.top .dot{animation:none}}
+  @media (max-width:560px){.job,.edu,.skills{grid-template-columns:1fr;gap:4px}}
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <div class="top mono"><span><span class="dot"></span>AI Engineer · Bayer</span><span id="clock">Bengaluru</span></div>
+    <h1>Deon Levon Dmello</h1>
+    <p class="tagline">I build <b>AI agents, RAG workflows and backend systems</b> that turn slow enterprise processes into fast, production-ready ones.</p>
+    <div class="links">
+      <a class="btn primary" href="DonDmelloCV_EU_.pdf">Résumé ↗</a>
+      <a class="btn" href="mailto:deondmello@gmail.com">Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/deon-dmello">LinkedIn</a>
+      <a class="btn" href="https://github.com/lekenzi">GitHub</a>
+    </div>
+  </header>
+
+  <section class="reveal">
+    <h2>About</h2>
+    <p class="about">I've built end-to-end systems across LLM applications, computer vision and backend infrastructure. What I care about is taking a messy business process and turning it into something reliable: well-orchestrated models, clean APIs, and the testing that keeps them honest in production.</p>
+  </section>
+
+  <section class="reveal">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="when mono">Apr 2026 — Now<br>Bengaluru</div>
+      <div>
+        <h3>AI Engineer I <span>· Bayer</span></h3>
+        <ul>
+          <li>Built AI agents and agentic workflows on LLMs and RAG, cutting approval processes <b>from days to minutes</b>.</li>
+          <li>Designed backend services and REST APIs for agent orchestration and enterprise data integration.</li>
+          <li>Work with teams to find repetitive work worth automating, keeping agents deterministic wherever correctness matters.</li>
+          <li>Led API testing and QA for AI-driven systems, improving reliability of production workflows.</li>
+        </ul>
       </div>
-    </header>
+    </div>
 
-    <main>
-      <section class="section container" id="about">
-        <h2>About</h2>
-        <p>
-          I am an AI Engineer with hands-on experience building end-to-end
-          systems across LLM applications, computer vision, and backend
-          infrastructure. I focus on translating business needs into robust AI
-          solutions by combining model orchestration, API design, and production
-          reliability practices.
-        </p>
-      </section>
-
-      <section class="section container" id="experience">
-        <h2>Experience</h2>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>AI Engineer I · Bayer</h3>
-            <p>Apr 2026 - Present · Bengaluru, KA</p>
-          </div>
-          <ul>
-            <li>
-              Developed AI agents and agentic workflows using LLMs and RAG
-              pipelines, reducing approval processes from days to minutes.
-            </li>
-            <li>
-              Designed and implemented backend services and REST APIs for agent
-              orchestration and enterprise data integration.
-            </li>
-            <li>
-              Collaberate with teams and understand how I can develop agents
-              that can mandane work and improve team efficiency, while also
-              making sure tasks are done deterministically to ensure
-              correctness.
-            </li>
-            <li>
-              Led API testing and quality assurance for AI-driven systems,
-              improving reliability and consistency of production workflows.
-            </li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>AI Engineer · Tardid Technologies</h3>
-            <p>Jun 2024 - Mar 2026 · Bengaluru, KA</p>
-          </div>
-          <ul>
-            <li>
-              Built an automated LiDAR-Camera calibration tool for extrinsic
-              calibration, improving alignment accuracy and reducing manual
-              effort.
-            </li>
-            <li>
-              Developed and deployed real-time and zero-shot action recognition
-              pipelines using X3D, Swin3D, and X-CLIP with 30 FPS live RTSP
-              inference.
-            </li>
-            <li>
-              Integrated CLIP and X-CLIP vision-language pipelines for
-              cross-modal retrieval, zero-shot classification, and scene
-              understanding.
-            </li>
-            <li>
-              Deployed and optimized instruction-tuned LLMs using llama.cpp and
-              SGL for low-latency inference on edge GPUs.
-            </li>
-            <li>
-              Designed FastAPI backends for ML inference, orchestration, and
-              data pipelines while managing CI workflows on a private Gitea
-              instance.
-            </li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>SRE / Platform Engineer Intern · Practo Technologies</h3>
-            <p>Mar 2024 - Jun 2024 · Bengaluru, KA</p>
-          </div>
-          <ul>
-            <li>
-              Resolved production issues through SSH-based troubleshooting and
-              JIRA ticket handling to maintain system reliability.
-            </li>
-            <li>
-              Worked with Dockerized microservices and implemented platform bug
-              fixes to improve stability.
-            </li>
-            <li>
-              Managed production Postgres backups and created a CloudWatch log
-              analysis pipeline for proactive error and deployment issue
-              detection.
-            </li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="section container" id="projects">
-        <h2>Selected Projects</h2>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>Sync'em</h3>
-            <p>FastAPI, Vue.js, PostgreSQL, Celery, Redis, GenAI Agents</p>
-          </div>
-          <ul>
-            <li>
-              Built a full-stack workforce and project management platform in an
-              8-member Agile Scrum team with role-based portals.
-            </li>
-            <li>
-              Implemented LLM + RAG assistants for HR queries, onboarding
-              workflows, and requirement clarification.
-            </li>
-            <li>
-              Added async job pipelines and Pytest coverage for reliability of
-              core services.
-            </li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>QuizNexus</h3>
-            <p>Vue.js, Flask, SQLite, JWT, Redis, LangChain, LangGraph</p>
-          </div>
-          <ul>
-            <li>
-              Developed a full-stack quiz platform with modular frontend and
-              REST API backend.
-            </li>
-            <li>
-              Built an AI student advisor to analyze quiz history and generate
-              personalized study recommendations.
-            </li>
-            <li>
-              Implemented secure JWT authentication and Redis-backed session
-              optimization.
-            </li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>ImageColorization</h3>
-            <p>Python, PyTorch, CNN, UNet, GANs</p>
-          </div>
-          <ul>
-            <li>
-              Developed a PyTorch model to colorize grayscale images using CNN
-              and GAN-based techniques.
-            </li>
-            <li>
-              Packaged the project as a reusable Python module with a documented
-              workflow.
-            </li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="section container" id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-          <div>
-            <h3>Languages</h3>
-            <p>Python, C/C++, Bash, SQL, Go</p>
-          </div>
-          <div>
-            <h3>AI / ML</h3>
-            <p>PyTorch, scikit-learn, OpenCV, CLIP, Vision-Language Models</p>
-          </div>
-          <div>
-            <h3>GenAI & RAG</h3>
-            <p>LangChain, LangGraph, CrewAI, Hugging Face, FAISS, Qdrant</p>
-          </div>
-          <div>
-            <h3>Backend & Infra</h3>
-            <p>FastAPI, REST APIs, PostgreSQL, Redis, Docker, CI/CD</p>
-          </div>
-          <div>
-            <h3>Cloud & Reliability</h3>
-            <p>AWS EC2, CloudWatch, PagerDuty, Jira, Linux Administration</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section container" id="education">
-        <h2>Education</h2>
-        <article class="card">
-          <div class="card-head">
-            <h3>Indian Institute of Technology Madras</h3>
-            <p>BS in Programming and Data Science · Sep 2021 - Present</p>
-          </div>
-          <p>Completed Diploma in Data Science and Diploma in Programming.</p>
-        </article>
-        <article class="card">
-          <div class="card-head">
-            <h3>Reva University</h3>
-            <p>B.Tech Computer Engineering (AI & ML) · Dec 2020 - Jul 2024</p>
-          </div>
-        </article>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container">
-        <p>
-          Open to AI Engineering, GenAI, and backend platform opportunities.
-        </p>
-        <p>
-          Contact:
-          <a href="mailto:deondmello@gmail.com">deondmello@gmail.com</a>
-        </p>
+    <div class="job">
+      <div class="when mono">Jun 2024 — Mar 2026<br>Bengaluru</div>
+      <div>
+        <h3>AI Engineer <span>· Tardid Technologies</span></h3>
+        <ul>
+          <li>Built an automated LiDAR–camera extrinsic calibration tool, improving alignment accuracy and cutting manual effort.</li>
+          <li>Shipped real-time and zero-shot action recognition (X3D, Swin3D, X-CLIP) at <b>30 FPS on live RTSP</b> streams.</li>
+          <li>Integrated CLIP / X-CLIP pipelines for cross-modal retrieval, zero-shot classification and scene understanding.</li>
+          <li>Deployed instruction-tuned LLMs with llama.cpp and SGLang for low-latency inference on edge GPUs.</li>
+          <li>Designed FastAPI backends for inference and data pipelines; ran CI on a private Gitea instance.</li>
+        </ul>
       </div>
-    </footer>
-  </body>
+    </div>
+
+    <div class="job">
+      <div class="when mono">Mar — Jun 2024<br>Bengaluru</div>
+      <div>
+        <h3>SRE / Platform Engineer Intern <span>· Practo</span></h3>
+        <ul>
+          <li>Resolved production issues via SSH troubleshooting and JIRA triage across Dockerized microservices.</li>
+          <li>Managed production Postgres backups and built a CloudWatch log-analysis pipeline for early error detection.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <h2>Selected projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Sync'em <i>↗</i></h3>
+        <p>Workforce and project management platform built in an 8-person Scrum team, with LLM + RAG assistants for HR queries and onboarding.</p>
+        <div class="tags"><span>FastAPI</span><span>Vue</span><span>Celery</span><span>RAG</span></div>
+      </div>
+      <div class="card">
+        <h3>QuizNexus <i>↗</i></h3>
+        <p>Full-stack quiz platform with an AI student advisor that reads quiz history and recommends what to study next.</p>
+        <div class="tags"><span>Flask</span><span>Vue</span><span>LangGraph</span><span>Redis</span></div>
+      </div>
+      <a class="card" href="https://github.com/lekenzi/ImageColorization">
+        <h3>ImageColorization <i>↗</i></h3>
+        <p>PyTorch model that colorizes grayscale images using UNet and GAN techniques, packaged as a reusable module.</p>
+        <div class="tags"><span>PyTorch</span><span>UNet</span><span>GAN</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt class="mono">Languages</dt><dd>Python, C/C++, Go, SQL, Bash</dd>
+      <dt class="mono">GenAI &amp; RAG</dt><dd>LangChain, LangGraph, CrewAI, Hugging Face, FAISS, Qdrant</dd>
+      <dt class="mono">AI / ML</dt><dd>PyTorch, scikit-learn, OpenCV, CLIP, vision-language models</dd>
+      <dt class="mono">Backend</dt><dd>FastAPI, REST APIs, PostgreSQL, Redis, Docker, CI/CD</dd>
+      <dt class="mono">Cloud &amp; Ops</dt><dd>AWS EC2, CloudWatch, PagerDuty, Linux</dd>
+    </dl>
+  </section>
+
+  <section class="reveal">
+    <h2>Education</h2>
+    <div class="edu">
+      <div class="mono">2021 — Now</div>
+      <div><h3>IIT Madras</h3><p>BS in Programming &amp; Data Science · Diplomas in Data Science and Programming completed</p></div>
+    </div>
+    <div class="edu">
+      <div class="mono">2020 — 2024</div>
+      <div><h3>Reva University</h3><p>B.Tech, Computer Engineering (AI &amp; ML)</p></div>
+    </div>
+  </section>
+
+  <footer class="mono">
+    <span>© <span id="yr"></span> Deon Levon Dmello</span>
+    <a href="mailto:deondmello@gmail.com">deondmello@gmail.com ↗</a>
+  </footer>
+  <!-- <p class="mono" style="margin-top:12px">Open to AI Engineering, GenAI and backend platform roles.</p> -->
+
+</main>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const c = document.getElementById('clock');
+  const tick = () => c.textContent = 'Bengaluru · ' + new Date().toLocaleTimeString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hour12:false}) + ' IST';
+  tick(); setInterval(tick, 30000);
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
 </html>
