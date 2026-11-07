@@ -11,7 +11,9 @@ Professional profile site: [lekenzi.github.io/lekenzi](https://lekenzi.github.io
 
 ## About Me
 
-AI Engineer specializing in sensor fusion, real-time action recognition, and scalable ML systems. Experienced in deploying deep learning models with PyTorch and ROS2, building FastAPI services, and managing collaborative workflows. Passionate about creating reliable, high-performance AI solutions that bridge research and production.
+**AI Engineer I at Bayer** (Bengaluru). I build AI agents, RAG workflows and backend systems that turn slow enterprise processes into fast, production-ready ones, cutting approval processes from days to minutes.
+
+Before Bayer, I was an AI Engineer at Tardid Technologies, working on LiDAR–camera calibration, real-time action recognition and edge LLM inference. Before that, I was an SRE / Platform Engineer intern at Practo.
 
 ![](https://komarev.com/ghpvc/?username=lekenzi)
 
@@ -80,8 +82,7 @@ AI Engineer specializing in sensor fusion, real-time action recognition, and sca
 
 ### **Generative AI (GenAI) Tools**
 <div>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/LangChain_Logo.svg/512px-LangChain_Logo.svg.png?20250612121153" width="250" height="40" alt="LangChain"/>  
-  <img src="./svg/langgraph-text.svg" width="250" height="40" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/Pydantic_AI-E92063?style=for-the-badge&logo=pydantic&logoColor=white" height="40" alt="Pydantic AI"/>
   <img src="./svg/llamaindex-text.svg" width="40" height="40" alt="LlamaIndex"/>
   <img src="./svg/crewai-brand-color.svg" width="250" height="40" alt="CrewAI"/>
   <img src="https://avatars.githubusercontent.com/u/151674099?s=200&v=4" width="40" height="40" alt="Ollama"/>
