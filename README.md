@@ -5,94 +5,22 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://lekenzi.github.io/lekenzi/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lekenzi)
 
-## Website
-
-Professional profile site: [lekenzi.github.io/lekenzi](https://lekenzi.github.io/lekenzi)
-
 ## About Me
 
 **AI Engineer I at Bayer** (Bengaluru). I build AI agents, RAG workflows and backend systems that turn slow enterprise processes into fast, production-ready ones, cutting approval processes from days to minutes.
 
 Before Bayer, I was an AI Engineer at Tardid Technologies, working on LiDAR–camera calibration, real-time action recognition and edge LLM inference. Before that, I was an SRE / Platform Engineer intern at Practo.
 
+## Stack
+
+| Area | Tools |
+| --- | --- |
+| **Languages** | Python, C/C++, Go, SQL, Bash |
+| **GenAI & agents** | Pydantic AI, CrewAI, MCP, Azure OpenAI, Hugging Face, Ollama |
+| **RAG & retrieval** | FAISS, Qdrant |
+| **LLM serving** | llama.cpp, SGLang, edge-GPU inference |
+| **AI / ML** | PyTorch, scikit-learn, OpenCV, CLIP / X-CLIP, vision-language models |
+| **Backend** | FastAPI, Flask, REST APIs, PostgreSQL, Redis, Celery |
+| **Cloud & ops** | AWS (ECS Fargate, EC2, CloudWatch), Docker, CI/CD, Linux |
+
 ![](https://komarev.com/ghpvc/?username=lekenzi)
-
-## Skills
-
-### **Programming Languages**
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="40" height="40"/>&nbsp;
-</div>
-
-### **Databases**
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" height="40"/>&nbsp;
-</div>
-
-### **Machine Learning & AI**
-<div>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" height="40"/>&nbsp;
-</div>
-
-### **Dev-Tools**
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" width="40" height="40"/>&nbsp;
-  <img src="https://zed.dev/_next/static/media/stable-app-logo.9b5f959f.png" width="40" height="40"/>&nbsp;
-</div>
-
-### **Robotics & Computer Vision**
-<div>
-  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text-1.svg" width="90" height="40"/>&nbsp;
-  <img src="https://gazebosim.org/docs/latest/_static/gazebo_horz_neg.svg" width="80" height="40"/>&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" width="80" height="40"/>&nbsp;
-  <img src="https://gstreamer.freedesktop.org/data/images/artwork/gstreamer-logo.svg" width="80" height="40"/>&nbsp;
-  <img src="https://img.icons8.com/?size=100&id=32418&format=png&color=000000" width="40" height="40"/>&nbsp;
-</div>
-
-### **Operating Systems**
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>&nbsp;
-  <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="40" height="40" color='white'/>&nbsp; -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="40" height="40" style="filter: invert(100%);"/>&nbsp;
-</div>
-
-### **Tech Stack**
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" height="40" alt="Vue.js"/>&nbsp;
-  <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="100" height="40" alt="FastAPI"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40" alt="Flask" inv/>&nbsp;
-  <img src="https://docs.celeryq.dev/en/stable/_static/celery_512.png" width="50" height="50" alt="Celery"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="50" height="50" alt="Redis"/>&nbsp;
-</div>
-
-### **Generative AI (GenAI) Tools**
-<div>
-  <img src="https://img.shields.io/badge/Pydantic_AI-E92063?style=for-the-badge&logo=pydantic&logoColor=white" height="40" alt="Pydantic AI"/>
-  <img src="./svg/llamaindex-text.svg" width="40" height="40" alt="LlamaIndex"/>
-  <img src="./svg/crewai-brand-color.svg" width="250" height="40" alt="CrewAI"/>
-  <img src="https://avatars.githubusercontent.com/u/151674099?s=200&v=4" width="40" height="40" alt="Ollama"/>
-  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="40" height="40" alt="Hugging Face"/>
-  <img src="./svg/mcp.svg" width="40" height="40" alt="MCP"/>
-</div>
-
-## Contact
-
-📧 **Email:** [deondmello@gmail.com](mailto:deondmello@gmail.com)  
-🌐 **Portfolio:** [lekenzi.github.io/lekenzi](https://lekenzi.github.io/lekenzi/)  
-💼 **LinkedIn:** [linkedin.com/in/deon-dmello](https://www.linkedin.com/in/deon-dmello)  
-👨‍💻 **GitHub:** [github.com/lekenzi](https://github.com/lekenzi)

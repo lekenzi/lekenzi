@@ -7,6 +7,14 @@
 <meta name="description" content="Deon Levon Dmello, AI Engineer at Bayer. Building AI agents, RAG workflows and backend systems for production.">
 <meta property="og:title" content="Deon Levon Dmello | AI Engineer">
 <meta property="og:description" content="AI agents, RAG workflows and backend systems that turn slow enterprise processes into fast, production-ready ones.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lekenzi.github.io/lekenzi/">
+<meta property="og:image" content="https://lekenzi.github.io/lekenzi/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js')</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
@@ -78,15 +86,15 @@
     <h2>Selected projects</h2>
     <div class="grid">
       <div class="card">
-        <h3>Sync'em <i>↗</i></h3>
+        <h3>Sync'em</h3>
         <p>Workforce and project management platform built in an 8-person Scrum team, with LLM + RAG assistants for HR queries and onboarding.</p>
         <div class="tags"><span>FastAPI</span><span>Vue</span><span>Celery</span><span>RAG</span></div>
       </div>
-      <div class="card">
+      <a class="card" href="https://github.com/lekenzi/QuizNexus">
         <h3>QuizNexus <i>↗</i></h3>
         <p>Full-stack quiz platform with an AI student advisor that reads quiz history and recommends what to study next.</p>
         <div class="tags"><span>Flask</span><span>Vue</span><span>LangGraph</span><span>Redis</span></div>
-      </div>
+      </a>
       <a class="card" href="https://github.com/lekenzi/ImageColorization">
         <h3>ImageColorization <i>↗</i></h3>
         <p>PyTorch model that colorizes grayscale images using UNet and GAN techniques, packaged as a reusable module.</p>
@@ -125,6 +133,6 @@
   <!-- <p class="mono" style="margin-top:12px">Open to AI Engineering, GenAI and backend platform roles.</p> -->
 
 </main>
-<script src="script.js" defer></script>
+<script src="script.js" defer onerror="document.documentElement.classList.remove('js')"></script>
 </body>
 </html>

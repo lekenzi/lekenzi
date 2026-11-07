@@ -50,10 +50,10 @@ li b{color:var(--ink);font-weight:500}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .card{display:flex;flex-direction:column;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;
   transition:border-color .25s,transform .25s}
-.card:hover{border-color:var(--accent);transform:translateY(-3px)}
+a.card:hover{border-color:var(--accent);transform:translateY(-3px)}
 .card h3{font-size:16px;font-weight:600;display:flex;justify-content:space-between}
 .card h3 i{font-style:normal;color:var(--muted);transition:color .25s,transform .25s}
-.card:hover h3 i{color:var(--accent);transform:translate(2px,-2px)}
+a.card:hover h3 i{color:var(--accent);transform:translate(2px,-2px)}
 .card p{color:var(--muted);font-size:14.5px;margin:8px 0 16px;flex:1}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tags span{font:11px/1 var(--mono);padding:5px 8px;border-radius:99px;background:var(--glow);color:var(--accent)}
@@ -69,7 +69,7 @@ li b{color:var(--ink);font-weight:500}
 footer{margin-top:96px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer a:hover{color:var(--accent)}
 
-.reveal{opacity:0;transform:translateY(10px);transition:opacity .7s ease,transform .7s ease}
-.reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.top .dot{animation:none}}
+.js .reveal{opacity:0;transform:translateY(10px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}.top .dot{animation:none}}
 @media (max-width:560px){.job,.edu,.skills{grid-template-columns:1fr;gap:4px}}
