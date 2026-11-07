@@ -2,7 +2,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deon-dmello/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deondmello@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://deondmello.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://lekenzi.github.io/lekenzi/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lekenzi)
 
 ## Website
@@ -93,6 +93,6 @@ Before Bayer, I was an AI Engineer at Tardid Technologies, working on LiDAR–ca
 ## Contact
 
 📧 **Email:** [deondmello@gmail.com](mailto:deondmello@gmail.com)  
-🌐 **Portfolio:** [deondmello.netlify.app](https://deondmello.netlify.app)  
+🌐 **Portfolio:** [lekenzi.github.io/lekenzi](https://lekenzi.github.io/lekenzi/)  
 💼 **LinkedIn:** [linkedin.com/in/deon-dmello](https://www.linkedin.com/in/deon-dmello)  
 👨‍💻 **GitHub:** [github.com/lekenzi](https://github.com/lekenzi)
